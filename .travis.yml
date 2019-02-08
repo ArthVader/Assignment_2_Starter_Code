@@ -3,6 +3,15 @@ language: cpp
 compiler:
   - gcc
 
+addons:
+	  apt:
+	    sources:
+	      - kubuntu-backports
+	    packages:
+	      - libxinerama-dev
+	      - libxcursor-dev
+	      - xorg-dev
+        
 before_script:
   - mkdir build
   - cd build
