@@ -5,7 +5,7 @@ sudo: required
 os:
   - linux
   - osx
-  
+
 compiler:
   - gcc
 
@@ -32,4 +32,3 @@ before_script:
 
 script:
   - make
-  - ./Assignment2_bin
